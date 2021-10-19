@@ -1,0 +1,165 @@
+:root{
+    --vermelho: #E5383B;
+    --preto: #0B090A;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.imagem-logo{
+    height: 40px;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #D3D3D3;
+    margin-right: 40px;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+
+#menu{
+    list-style: none;
+    display: flex;
+}
+
+#btn-menumobile{
+    display: none;
+}
+
+#nav{
+    position: relative;
+    padding: 10px;
+}
+#nav.active #menu{
+    display: block;
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+}
+/*titulo-principal*/
+
+.titulo-principal{
+    font-size: 16px;
+    background: linear-gradient(to top, rgba(0,0,0,.4) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,.4) 100%), linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.40)100%), url('img/mad-max.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo-principal .titulo{
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.titulo-principal .descricao{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    max-width: 90%;
+}
+
+.titulo-principal .container{
+    width: 70%;
+    margin-left: 5%;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 4px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .5s ease all;
+    font-weight: 600;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+/* Carousel */
+
+.titulo-em-alta{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item{
+    position: relative;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.carousel-titulos{
+    margin: 10px 5%;
+}
+
+/* Rodapé */
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    margin: 20px;
+}
+
+.rodape .item{
+    margin-bottom: 5px;
+}
+
+.rodape a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.rodape a:hover{
+    color: #D3D3D3;
+}
+
+.inc{
+    font-size: 10px;
+    margin-top: 25px;
+}

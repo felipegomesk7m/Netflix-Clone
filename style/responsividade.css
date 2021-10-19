@@ -1,0 +1,112 @@
+
+@media screen and (max-width: 700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botao{
+        margin: 5px;
+    }
+
+    .titulo-em-alta{
+        text-align: center;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    ul li{
+        padding: 20px;
+    }
+
+    .titulo-principal{
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .titulo-principal .descricao{
+        display: none;
+    }
+
+    .imagem-logo{
+        height: 30px;
+        margin-left: 5%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    #btn-menumobile{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        color: white;
+    }
+
+    #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 35px;
+        right: 0px;
+        height: 0px;
+        z-index:1000;
+        transition: .6s;
+        background: #0B090A;
+        opacity: 90%;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #menu a{
+        padding: 12rem 0;
+        margin: 0 1rem;
+    }
+
+    #menu a:hover{
+        color: #fff;
+    }
+    
+    #hamburger{
+        border-top: 2px solid;
+        width: 20px;
+        margin-top: -55px;
+    }
+    #hamburger::after, #hamburger::before{
+        content:'';
+        display: block;
+        border-top: 2px solid white;
+        width: 20px;
+        height: 2px;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger{
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger:before{
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger:after{
+        transform: rotate(-135deg);
+        top: -8px;
+    }
+}
