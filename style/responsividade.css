@@ -29,6 +29,10 @@
         padding: 20px;
     }
 
+    .modal{
+        padding: 20%;
+    }
+
     .titulo-principal{
         justify-content: flex-end;
         align-items: center;
