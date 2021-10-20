@@ -3,14 +3,12 @@
 Tela Inicial da Netflix recriada usando HTML, CSS, Javascript e o plugin owl carousel para a plataforma da Digital Innovation One através do bootcamp Impulso React Web Developer :computer:
 
 ## Screenshot
-![tela-inicial-1](https://user-images.githubusercontent.com/74694976/138138077-4fc1ca5a-92bd-4cef-ba9b-9a8954fcc576.JPG)
-![Modo-Responsivo-2](https://user-images.githubusercontent.com/74694976/138138172-46c947ac-4d23-487b-b809-efbd763b8bb1.JPG)
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/74694976/138138077-4fc1ca5a-92bd-4cef-ba9b-9a8954fcc576.JPG">
+<img width="80%" src="https://user-images.githubusercontent.com/74694976/138138077-4fc1ca5a-92bd-4cef-ba9b-9a8954fcc576.JPG">
 </p>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/74694976/138138172-46c947ac-4d23-487b-b809-efbd763b8bb1.JPG">
+<img width="50%" height="50%" src="https://user-images.githubusercontent.com/74694976/138138172-46c947ac-4d23-487b-b809-efbd763b8bb1.JPG">
 </p>
 
 ## Alterações e Desafios Extras propostos:
