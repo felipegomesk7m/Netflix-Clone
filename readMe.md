@@ -2,6 +2,11 @@
 
 Tela Inicial da Netflix recriada usando HTML, CSS, Javascript e o plugin owl carousel para a plataforma da Digital Innovation One através do bootcamp Impulso React Web Developer :computer:
 
+## Screenshot
+
+<img src="style/img/screenshots/tela-inicial-1.jpg" title="tela inicial">
+<img src="style/img/screenshots/Modo-Responsivo-2.jpg" title="Modo Responsivo">
+
 ## Alterações e Desafios Extras propostos:
 
 :heavy_check_mark: Fazer uma nova Roupagem
