@@ -16,3 +16,6 @@ Tela Inicial da Netflix recriada usando HTML, CSS, Javascript e o plugin owl car
 * No modo responsivo adicionei um menu *hamburger* e enfileirei o menu da tela principal em coluna, sendo possível fechá-lo também.
 
 :heavy_check_mark: Dar Vida aos botões da Página
+
+* Adicionei um Popup no botão "Mais Informações" acerca do título principal da tela
+* O Botão Assistir agora encaminha para o trailer do Título no Youtube

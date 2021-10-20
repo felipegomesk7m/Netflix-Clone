@@ -75,7 +75,7 @@ header nav a:hover{
     pointer-events: none;
     opacity: 0%;
     transition: opacity 0.5s ease-in-out;
-    z-index: 1;
+    z-index: 2;
 }
 
 .modal{
@@ -83,8 +83,7 @@ header nav a:hover{
     top: 0px;
     left: 0;
     position: absolute;
-    padding: 150px;
-    z-index: 2;
+    padding: 220px;
 }
 
 .close{
