@@ -4,8 +4,8 @@ Tela Inicial da Netflix recriada usando HTML, CSS, Javascript e o plugin owl car
 
 ## Screenshot
 
-![Alt text](style/img/screenshots/tela-inicial-1.jpg "Tela Inicial")
-![Alt text](style/img/screenshots/Modo-Responsivo-2 "Tela Inicial")
+![Alt text](style/img/screenshots/tela-inicial-1.jpg?raw=true "Tela Inicial")
+![Alt text](style/img/screenshots/Modo-Responsivo-2?raw=true "Tela Inicial")
 
 ## Alterações e Desafios Extras propostos:
 
