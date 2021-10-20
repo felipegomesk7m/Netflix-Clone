@@ -34,13 +34,11 @@ header nav a{
     text-decoration: none;
     color: #D3D3D3;
     margin-right: 40px;
-    
 }
 
 header nav a:hover{
     color: #fff;
 }
-
 
 #menu{
     list-style: none;
@@ -61,6 +59,57 @@ header nav a:hover{
     visibility: visible;
     overflow-y: auto;
 }
+
+/*PopUp Mais Informações*/
+
+.modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    max-width: 100%;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0%;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.modal{
+    background-color: var(--preto);
+    top: 0px;
+    left: 0;
+    position: absolute;
+    padding: 150px;
+    z-index: 2;
+}
+
+.close{
+    font-size: 40px;
+}
+
+.modal-container.show{
+    opacity: 100%;
+    pointer-events: auto;
+}
+
+.close{
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+}
+
+.poster{
+    width: 20%;
+}
+
+.modal p{
+    text-align: justify;
+}
+
 /*titulo-principal*/
 
 .titulo-principal{
@@ -105,13 +154,20 @@ header nav a:hover{
     font-weight: 600;
 }
 
+.botao a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .botao:hover{
     background-color: white;
     color: black;
+    transform: scale(1.08);
 }
 
 .botao i{
-    margin-right: 10px;
+    margin-right: 20px;
+    
 }
 
 /* Carousel */
